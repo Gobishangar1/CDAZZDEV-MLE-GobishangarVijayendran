@@ -1,0 +1,401 @@
+{
+  "status": "ok",
+  "summary": {
+    "ticker": "NVDA",
+    "company_name": "NVIDIA Corporation",
+    "currency": "USD",
+    "as_of": "2026-10-09",
+    "current_price": 229.28,
+    "high_52w": 243.37,
+    "low_52w": 163.9,
+    "pct_from_52w_high": -5.79,
+    "pe_ratio": 28.99,
+    "pe_source": "trailingPE",
+    "ytd_return_pct": 23.23,
+    "ytd_base": "prior_year_close",
+    "momentum": {
+      "label": "strong_bullish",
+      "score": 0.621,
+      "components": {
+        "long_trend": 1.0,
+        "short_trend": 1.0,
+        "macd": 0.5,
+        "rsi": 0.15,
+        "bollinger": 0.16
+      },
+      "missing": []
+    }
+  },
+  "info": {
+    "longName": "NVIDIA Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "currency": "USD",
+    "marketCap": 5536424132608,
+    "trailingPE": 28.986094,
+    "trailingEps": 7.91
+  },
+  "headlines": [
+    {
+      "title": "TSMC Reports Oct. 15. It's the Best Early Read on Nvidia's Next Quarter.",
+      "publisher": "fool.com",
+      "published_at": "2026-10-11T07:58:02+00:00",
+      "url": "https://www.fool.com/investing/2026/10/11/tsmc-reports-oct-15-it-s-the-best-early-read-on-nvidia-s-next-quarter/?.tsrc=rss",
+      "source": "yahoo_rss",
+      "relevant": true
+    },
+    {
+      "title": "NVIDIA Corporation $NVDA Shares Bought by Canada Pension Plan Investment Board - MarketBeat",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-11T07:47:33+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcTlaVGRYSk8xTmh2TjQ1Sk81d1p4X1MtQ1IxS081dFhQdmNicHZvdnlzNmJHdnpaYkx4THEyNXBYdVpnZlNwUF9MMFVLV3NKZFZKRVVUTkNpSDF4WGJzci1KQlo0WldWeHhNV0RNVVdzVFoyQ1pacG51dlhMOWQ1QXVQaEFkX25mQlFtazgyNHE5bHF6WW1aaTl0Y29hQ1ZRbDlGLWJ2VEZKZWdiWkhZczFncmQ2aVlwNWdFRmY4b3RQVGpoRGQ3bHpUNnRHQjBuNmVXNw?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "NVIDIA Corporation $NVDA Stock Position Raised by Castleark Management LLC - MarketBeat",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-11T07:45:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbWJBaS1hb1EwWnBtdmNUVFhzY2pjbU5VX3IzeUlZR2RVWmpzcGIzQUVhakhxMGZrWU1WSFdjQi1CUkphQ0Y2Ni1ueGdtS0g0NGI1T2g4blRuck1ZV1ZvQlRVRlBlaERDUXNWMWlOTHZlbUFMdERnVGFtbm0yVV9iZkNnekJMX0JxTmJjZklrcDJ3bEcxb2N1cUhPRGpVU2hFeTYtMGRSaDZVTEx6SkFlNnBmc3dTU0ViNWVEeFhXakoxakI1RG5WSmJnU2xVb28?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "NVIDIA Corporation $NVDA Stock Position Decreased by AFT Forsyth & Company Inc. - MarketBeat",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-11T07:29:15+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPLWw1MmY4T3BOdkRMbW12dFZVMTlTN3gxclptVnlfTVJyN0tybUpQT3UybWZ4S3NhUTBYZEktN2swMklxZWwtOG5RcXBxaFpiTk9xVUlTT2VKQ2x1VVhiQ2szb05tVGFpNzF0SW91NTMwTzVoMVNkZl8teVJyTlRReE9KYy1ybnd4aGJHZ1FfUlNPM29zU2VTcVowMmlLa0ZuTjJPb01Ma1FBYThpUmF4T0JLNk1Fei1xN3NITURWLXRGUUhnY2p5YTY2dU81aXZGVmc?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "Nvidia Weighs Buying Reflection AI, the $25 Billion Open-Weight Model Startup It Already Backs",
+      "publisher": "tikr.com",
+      "published_at": "2026-10-11T06:57:52+00:00",
+      "url": "https://www.tikr.com/blog/nvidia-weighs-buying-reflection-ai-the-25-billion-open-weight-model-startup-it-already-backs?ref=yahoofinance&.tsrc=rss",
+      "source": "yahoo_rss",
+      "relevant": true
+    },
+    {
+      "title": "Cerebras Is About as Big as Nvidia's Data Center Business Was Nearly a Decade Ago. The Similarities Mostly End There.",
+      "publisher": "fool.com",
+      "published_at": "2026-10-11T00:57:01+00:00",
+      "url": "https://www.fool.com/investing/2026/10/10/cerebras-is-about-as-big-as-nvidia-s-data-center-business-was-nearly-a-decade-ago-the-similarities-mostly-end-there/?.tsrc=rss",
+      "source": "yahoo_rss",
+      "relevant": true
+    },
+    {
+      "title": "Amazon (AMZN) Wants Investors to Finance $8 Billion of Nvidia Chips. Is AI Spending Getting Too Heavy?",
+      "publisher": "finance.yahoo.com",
+      "published_at": "2026-10-10T22:11:26+00:00",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-wants-investors-finance-221126922.html?.tsrc=rss",
+      "source": "yahoo_rss",
+      "relevant": true
+    },
+    {
+      "title": "Nvidia-Backed Neoclouds Face a Test as IREN, CoreWeave and Nebius Stocks Slide - Benzinga",
+      "publisher": "Benzinga",
+      "published_at": "2026-10-10T18:20:21+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcFhkbHQ5a3d1bzVwZWFzMU8zUjNpMWFNd2NkRVFsZVhqSEJJTHFyZ2ZGN0FzejZqVkJieThCa1FXeW5aMTZFVWxVSlNKdm5YS1JlT0g1ZVpDUkF0LUZPWll4VEk0R3pPNjdpQV9sZk42czVrTWdkZy1fUjRRTDB4U1dzTGhHLUw2VTEwellEZGg4NUUxaTVhSlJidElsVFFlOG1qLVp4M1M4cGJ6VjNIYjdDaWx5OFVxY3RrQ3h2Y3VGTm4tZGYzbW1oenRLenc?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "Nvidia (NVDA) More Than Doubled Revenue, Yet Its Multiple Sits Below History. Bargain or Warning? - Yahoo Finance",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-10-10T17:10:39+00:00",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSllnZUxfMEdNUVB4TlJJaW9NVmhOT2NjN0F2bVdiRkxRS2QyQ1pSS0p3eWN1dFNqX09aRnUzZ0EzdzBCR053SEJqWDlLUmhwY0ZlaXgtdHp4aDA3ZnVrNGN4aUpxczlsQlR3Ym81ODhqcktLMzZXRzZIOEpoMEhFaTlMWDlyVTREeHd3WWZRVVZlNU5XUkR1ajdMaDczQQ?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "SoundHound AI Stock: Why This Nvidia-Backed AI Voice Giant Is in a Freefall - Benzinga",
+      "publisher": "Benzinga",
+      "published_at": "2026-10-10T16:54:15+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNemRpMDQ2NnJDN3BtUnB0WHMxZ2VpSWJJaFdGQ1dHcjBwS2s2dU1aT0Y3by00WVhoOVRjU3V1MXNvRmxZMlNWR0R2Q2tQeE1hVTM2WGRCQTNoTEY0MGJQNTdzY2NGc3FjSkVTVG0yMjNhSW9KR3VLQlIzV1dNRmRSUmVCMU53cXM1T3B3a1BsNEdJendXdGFYNllMb25VOWFqYlFGTHMtampUNzVwUVhlSkJJUmhyZktEQWpUNWhRVjVGdXhsMF9yMUl0aw?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "Opinion: Why Nvidia\u2019s stock is dodging the AI credit scare that is crushing Broadcom and Oracle - MarketWatch",
+      "publisher": "MarketWatch",
+      "published_at": "2026-10-10T12:30:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTV9hSzlieTl3S1hRYklaZmQtMzZ4UGtTVUtscUUxeS1Sd1NkUEU2ZU1HLWFleUcyWXA5Sl9VU1hOMmhHVzZNY1YzQWk5SHRic1JXOGppcXZSSFNqU21yM2JaZHFkLU9XRWdteWptNmxGTTM4YzgwOTNOZ29kN2hOLW5DVTZTMlFXNEprYXdyVjFLWDhvWkZQU203czNWRmNoV0JfNThPZ3pKVUV5emNvLTNQZS1XRE1ZZERoRlRCTVIwMmsxVTVZ?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "Benzinga Bulls and Bears: Nvidia, Lumentum, Planet Labs - Benzinga",
+      "publisher": "Benzinga",
+      "published_at": "2026-10-10T12:00:11+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdkRDZmZpWUVVNTBkekZLR1c5aHZEemVZaDRIcTBIQlJGdHBmUENsTEdNMGpTbExNMEVWUzBzakNqT0FOUGxTTkM5SklNLVhrSFlrVFEzZ1BxTFpadk1CRnFONXV0dHY1VlNJRnZHUVV6bE9MRkFqb18tX1lDMi1Qek1UTnpRcVh4ZWxsVmpmcTU3SEFVZm8zMnN4YURBVWRpZXNSdjN6YUYxcTVtMXhlYUtXSGY2QQ?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "3,322 NVIDIA Corporation $NVDA Shares Bought by Visionary Wealth Advisors - MarketBeat",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-10T09:06:47+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3l5bm1QUUJ3Zk9yekRBSzlqclRZRUU5ckpFaVp6NW1LT0ZOZDlqTy1INWFFYll2V0c4SFpqMVRUYkFGdVJjTlM3SUE0ZDB1Q2JWNmRteVVkNXA5bERGZW9EQVBSSGVWLUtVOWNTdW5ucG5uNFdfeHZCT29leWdOQS1qUmI2b0NxWGVPQ0JFWGhFWV80TVZnS2ZxMlBfeEVHc3lRWTNVX1UwV1p4NXBZeENMRG44ZFJiZFJOUnJCWklKaUZ3VjAtSFFSSGw?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "4,368 NVIDIA Corporation $NVDA Shares Sold by Whalen Wealth Management Inc. - MarketBeat",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-10T09:06:47+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMGtBdDY3U2w3MUExdzM5ZGNwVW03cXJ6Y3VMVWF4b2pxLWsxemdmVW1ZcWxoQ3B2WGxrVllRN25Qd09rTHRwZlViczJFYzl6UUVQeGVjLUFlNHI1aEV0OXdmTkxTOGFpdEEtY0dUWFVsQU5oaTdRbkU2MTZkc0UyV0I5dkljeU1Xb2RhTzZpWXhaZTlfMWp2MVpfeml0eDNQNC1SZHJEMUh4Y2h0enFwd2xIWEFnM2tfU0ZpUmdiR2p5cXRBZTlxUU9HVHU2UQ?oc=5",
+      "source": "google_news",
+      "relevant": true
+    },
+    {
+      "title": "10,697 NVIDIA Corporation $NVDA Shares Sold by Vega Investment Solutions - MarketBeat",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-10T08:46:48+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQVcwQjZiTTZNMHpZQmVuOU01dWQ3WDZIMmRENnVHLTBGdS0wRU9aUFF4Y1Ztd0laZWVvVHljY0VaODRGc0EzNVFtelNWZmxEUmQ5LUlBaC03ME9POFQxdG9XVFpRVHlMZF9IR3FqVFl5azdsVTNOdGNIdnFVcFk1ZDdfNXdSamY1ZWhOSmJVaTdQX2lSekJGRXlHc0ZaTFkxRmRTYWFwalZ3MU9aOU5EMWQyd1FEQWVydW9JLVhjVWc1MlJ3ZHZnaDBHZw?oc=5",
+      "source": "google_news",
+      "relevant": true
+    }
+  ],
+  "headline_results": [
+    {
+      "headline": "TSMC Reports Oct. 15. It's the Best Early Read on Nvidia's Next Quarter.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "brief_reason": "A favorable TSMC report suggests strong upcoming Nvidia earnings, likely boosting its share price.",
+      "publisher": "fool.com",
+      "published_at": "2026-10-11T07:58:02+00:00",
+      "url": "https://www.fool.com/investing/2026/10/11/tsmc-reports-oct-15-it-s-the-best-early-read-on-nvidia-s-next-quarter/?.tsrc=rss",
+      "source": "yahoo_rss"
+    },
+    {
+      "headline": "NVIDIA Corporation $NVDA Shares Bought by Canada Pension Plan Investment Board - MarketBeat",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "brief_reason": "Large institutional purchase signals confidence, likely boosting the stock.",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-11T07:47:33+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcTlaVGRYSk8xTmh2TjQ1Sk81d1p4X1MtQ1IxS081dFhQdmNicHZvdnlzNmJHdnpaYkx4THEyNXBYdVpnZlNwUF9MMFVLV3NKZFZKRVVUTkNpSDF4WGJzci1KQlo0WldWeHhNV0RNVVdzVFoyQ1pacG51dlhMOWQ1QXVQaEFkX25mQlFtazgyNHE5bHF6WW1aaTl0Y29hQ1ZRbDlGLWJ2VEZKZWdiWkhZczFncmQ2aVlwNWdFRmY4b3RQVGpoRGQ3bHpUNnRHQjBuNmVXNw?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "NVIDIA Corporation $NVDA Stock Position Raised by Castleark Management LLC - MarketBeat",
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "brief_reason": "A position change by an investment manager is generally neutral unless it signals a major shift in outlook.",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-11T07:45:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbWJBaS1hb1EwWnBtdmNUVFhzY2pjbU5VX3IzeUlZR2RVWmpzcGIzQUVhakhxMGZrWU1WSFdjQi1CUkphQ0Y2Ni1ueGdtS0g0NGI1T2g4blRuck1ZV1ZvQlRVRlBlaERDUXNWMWlOTHZlbUFMdERnVGFtbm0yVV9iZkNnekJMX0JxTmJjZklrcDJ3bEcxb2N1cUhPRGpVU2hFeTYtMGRSaDZVTEx6SkFlNnBmc3dTU0ViNWVEeFhXakoxakI1RG5WSmJnU2xVb28?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "NVIDIA Corporation $NVDA Stock Position Decreased by AFT Forsyth & Company Inc. - MarketBeat",
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "brief_reason": "A position change by a single firm is not a clear catalyst for NVDA\u2019s price movement.",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-11T07:29:15+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPLWw1MmY4T3BOdkRMbW12dFZVMTlTN3gxclptVnlfTVJyN0tybUpQT3UybWZ4S3NhUTBYZEktN2swMklxZWwtOG5RcXBxaFpiTk9xVUlTT2VKQ2x1VVhiQ2szb05tVGFpNzF0SW91NTMwTzVoMVNkZl8teVJyTlRReE9KYy1ybnd4aGJHZ1FfUlNPM29zU2VTcVowMmlLa0ZuTjJPb01Ma1FBYThpUmF4T0JLNk1Fei1xN3NITURWLXRGUUhnY2p5YTY2dU81aXZGVmc?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "Nvidia Weighs Buying Reflection AI, the $25 Billion Open-Weight Model Startup It Already Backs",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "brief_reason": "Acquisition of a high\u2011valued AI startup signals growth and expansion, likely boosting investor sentiment.",
+      "publisher": "tikr.com",
+      "published_at": "2026-10-11T06:57:52+00:00",
+      "url": "https://www.tikr.com/blog/nvidia-weighs-buying-reflection-ai-the-25-billion-open-weight-model-startup-it-already-backs?ref=yahoofinance&.tsrc=rss",
+      "source": "yahoo_rss"
+    },
+    {
+      "headline": "Cerebras Is About as Big as Nvidia's Data Center Business Was Nearly a Decade Ago. The Similarities Mostly End There.",
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "brief_reason": "Mentions competitor size but no direct impact on Nvidia\u2019s performance or outlook.",
+      "publisher": "fool.com",
+      "published_at": "2026-10-11T00:57:01+00:00",
+      "url": "https://www.fool.com/investing/2026/10/10/cerebras-is-about-as-big-as-nvidia-s-data-center-business-was-nearly-a-decade-ago-the-similarities-mostly-end-there/?.tsrc=rss",
+      "source": "yahoo_rss"
+    },
+    {
+      "headline": "Amazon (AMZN) Wants Investors to Finance $8 Billion of Nvidia Chips. Is AI Spending Getting Too Heavy?",
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "brief_reason": "Amazon seeking funding for Nvidia chips signals strong demand, likely boosting NVDA\u2019s share price.",
+      "publisher": "finance.yahoo.com",
+      "published_at": "2026-10-10T22:11:26+00:00",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-wants-investors-finance-221126922.html?.tsrc=rss",
+      "source": "yahoo_rss"
+    },
+    {
+      "headline": "Nvidia-Backed Neoclouds Face a Test as IREN, CoreWeave and Nebius Stocks Slide - Benzinga",
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "brief_reason": "The headline focuses on Neoclouds and other stocks; no direct impact on NVDA\u2019s share price is evident.",
+      "publisher": "Benzinga",
+      "published_at": "2026-10-10T18:20:21+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcFhkbHQ5a3d1bzVwZWFzMU8zUjNpMWFNd2NkRVFsZVhqSEJJTHFyZ2ZGN0FzejZqVkJieThCa1FXeW5aMTZFVWxVSlNKdm5YS1JlT0g1ZVpDUkF0LUZPWll4VEk0R3pPNjdpQV9sZk42czVrTWdkZy1fUjRRTDB4U1dzTGhHLUw2VTEwellEZGg4NUUxaTVhSlJidElsVFFlOG1qLVp4M1M4cGJ6VjNIYjdDaWx5OFVxY3RrQ3h2Y3VGTm4tZGYzbW1oenRLenc?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "Nvidia (NVDA) More Than Doubled Revenue, Yet Its Multiple Sits Below History. Bargain or Warning? - Yahoo Finance",
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "brief_reason": "Revenue growth is good, but valuation concerns suggest mixed market reaction.",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-10-10T17:10:39+00:00",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSllnZUxfMEdNUVB4TlJJaW9NVmhOT2NjN0F2bVdiRkxRS2QyQ1pSS0p3eWN1dFNqX09aRnUzZ0EzdzBCR053SEJqWDlLUmhwY0ZlaXgtdHp4aDA3ZnVrNGN4aUpxczlsQlR3Ym81ODhqcktLMzZXRzZIOEpoMEhFaTlMWDlyVTREeHd3WWZRVVZlNU5XUkR1ajdMaDczQQ?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "SoundHound AI Stock: Why This Nvidia-Backed AI Voice Giant Is in a Freefall - Benzinga",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "brief_reason": "The headline indicates a decline in a company backed by Nvidia, suggesting negative sentiment for Nvidia\u2019s stock.",
+      "publisher": "Benzinga",
+      "published_at": "2026-10-10T16:54:15+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNemRpMDQ2NnJDN3BtUnB0WHMxZ2VpSWJJaFdGQ1dHcjBwS2s2dU1aT0Y3by00WVhoOVRjU3V1MXNvRmxZMlNWR0R2Q2tQeE1hVTM2WGRCQTNoTEY0MGJQNTdzY2NGc3FjSkVTVG0yMjNhSW9KR3VLQlIzV1dNRmRSUmVCMU53cXM1T3B3a1BsNEdJendXdGFYNllMb25VOWFqYlFGTHMtampUNzVwUVhlSkJJUmhyZktEQWpUNWhRVjVGdXhsMF9yMUl0aw?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "Opinion: Why Nvidia\u2019s stock is dodging the AI credit scare that is crushing Broadcom and Oracle - MarketWatch",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "brief_reason": "The article suggests Nvidia is outperforming peers amid AI credit concerns, implying a bullish outlook.",
+      "publisher": "MarketWatch",
+      "published_at": "2026-10-10T12:30:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTV9hSzlieTl3S1hRYklaZmQtMzZ4UGtTVUtscUUxeS1Sd1NkUEU2ZU1HLWFleUcyWXA5Sl9VU1hOMmhHVzZNY1YzQWk5SHRic1JXOGppcXZSSFNqU21yM2JaZHFkLU9XRWdteWptNmxGTTM4YzgwOTNOZ29kN2hOLW5DVTZTMlFXNEprYXdyVjFLWDhvWkZQU203czNWRmNoV0JfNThPZ3pKVUV5emNvLTNQZS1XRE1ZZERoRlRCTVIwMmsxVTVZ?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "Benzinga Bulls and Bears: Nvidia, Lumentum, Planet Labs - Benzinga",
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "brief_reason": "General market commentary without a specific event affecting Nvidia's stock.",
+      "publisher": "Benzinga",
+      "published_at": "2026-10-10T12:00:11+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdkRDZmZpWUVVNTBkekZLR1c5aHZEemVZaDRIcTBIQlJGdHBmUENsTEdNMGpTbExNMEVWUzBzakNqT0FOUGxTTkM5SklNLVhrSFlrVFEzZ1BxTFpadk1CRnFONXV0dHY1VlNJRnZHUVV6bE9MRkFqb18tX1lDMi1Qek1UTnpRcVh4ZWxsVmpmcTU3SEFVZm8zMnN4YURBVWRpZXNSdjN6YUYxcTVtMXhlYUtXSGY2QQ?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "3,322 NVIDIA Corporation $NVDA Shares Bought by Visionary Wealth Advisors - MarketBeat",
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "brief_reason": "Purchase by an advisor is routine and unlikely to move the stock significantly.",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-10T09:06:47+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3l5bm1QUUJ3Zk9yekRBSzlqclRZRUU5ckpFaVp6NW1LT0ZOZDlqTy1INWFFYll2V0c4SFpqMVRUYkFGdVJjTlM3SUE0ZDB1Q2JWNmRteVVkNXA5bERGZW9EQVBSSGVWLUtVOWNTdW5ucG5uNFdfeHZCT29leWdOQS1qUmI2b0NxWGVPQ0JFWGhFWV80TVZnS2ZxMlBfeEVHc3lRWTNVX1UwV1p4NXBZeENMRG44ZFJiZFJOUnJCWklKaUZ3VjAtSFFSSGw?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "4,368 NVIDIA Corporation $NVDA Shares Sold by Whalen Wealth Management Inc. - MarketBeat",
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "brief_reason": "Sale of shares by a wealth manager does not indicate a clear positive or negative impact on NVDA\u2019s stock price.",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-10T09:06:47+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMGtBdDY3U2w3MUExdzM5ZGNwVW03cXJ6Y3VMVWF4b2pxLWsxemdmVW1ZcWxoQ3B2WGxrVllRN25Qd09rTHRwZlViczJFYzl6UUVQeGVjLUFlNHI1aEV0OXdmTkxTOGFpdEEtY0dUWFVsQU5oaTdRbkU2MTZkc0UyV0I5dkljeU1Xb2RhTzZpWXhaZTlfMWp2MVpfeml0eDNQNC1SZHJEMUh4Y2h0enFwd2xIWEFnM2tfU0ZpUmdiR2p5cXRBZTlxUU9HVHU2UQ?oc=5",
+      "source": "google_news"
+    },
+    {
+      "headline": "10,697 NVIDIA Corporation $NVDA Shares Sold by Vega Investment Solutions - MarketBeat",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "brief_reason": "Sale of shares by an investment firm does not indicate a direct company event affecting NVDA\u2019s price.",
+      "publisher": "MarketBeat",
+      "published_at": "2026-10-10T08:46:48+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQVcwQjZiTTZNMHpZQmVuOU01dWQ3WDZIMmRENnVHLTBGdS0wRU9aUFF4Y1Ztd0laZWVvVHljY0VaODRGc0EzNVFtelNWZmxEUmQ5LUlBaC03ME9POFQxdG9XVFpRVHlMZF9IR3FqVFl5azdsVTNOdGNIdnFVcFk1ZDdfNXdSamY1ZWhOSmJVaTdQX2lSekJGRXlHc0ZaTFkxRmRTYWFwalZ3MU9aOU5EMWQyd1FEQWVydW9JLVhjVWc1MlJ3ZHZnaDBHZw?oc=5",
+      "source": "google_news"
+    }
+  ],
+  "headline_failures": [],
+  "sentiment": {
+    "score": 0.347,
+    "label": "positive",
+    "counts": {
+      "positive": 5,
+      "neutral": 9,
+      "negative": 1
+    },
+    "agreement": 0.6,
+    "coverage": 1.0,
+    "n_valid": 15
+  },
+  "facts": [
+    "Close 229.28 is 3.3% above SMA-50 (221.94).",
+    "Close is 13.6% above SMA-200 (201.83).",
+    "SMA-50 is above SMA-200: long-term trend is up.",
+    "Last moving-average cross: golden cross 323 trading days ago.",
+    "MACD histogram is positive (+0.12) and shrinking toward zero (bullish momentum fading).",
+    "MACD line is above its signal line and above zero.",
+    "RSI-14 is 53.0 (neutral zone); it was 55.3 ten trading days ago.",
+    "Bollinger %B is 0.58 (price inside the bands).",
+    "Price is 5.8% below its 52-week high (243.37); 52-week low is 163.90.",
+    "Year-to-date return is +23.2%.",
+    "Trailing P/E is 29.0.",
+    "News sentiment is +0.35 (positive) from 15 headlines; agreement 60%, coverage 100%."
+  ],
+  "conflicts": [
+    "Trend is up, but MACD momentum is fading or negative."
+  ],
+  "signal": {
+    "signal": "BUY",
+    "confidence": 0.7,
+    "justification": "The price is 3.3% above the SMA\u201150 and 13.6% above the SMA\u2011200, confirming a strong uptrend while the SMA\u201150 remains above the SMA\u2011200, which reinforces the bullish bias. The MACD line stays above its signal line and above zero, confirming bullish momentum despite the histogram shrinking toward zero, and the strong_bullish momentum score of +0.62 supports this view. News sentiment is +0.35 positive, adding further upside pressure while the YTD return of +23.2% shows recent strength. Although the MACD histogram is fading, the overall positive MACD line and momentum score outweigh this, so the fading signal does not overturn the bullish case.",
+    "key_drivers": [
+      "price above SMA\u201150 & SMA\u2011200 confirms uptrend",
+      "MACD line above zero & strong_bullish momentum score supports bullish bias"
+    ],
+    "conflicting_evidence": [
+      "MACD histogram shrinking suggests fading momentum, but MACD line remains positive and momentum score is strong bullish, so it does not override the uptrend"
+    ]
+  },
+  "signal_source": "llm",
+  "signal_history": [
+    {
+      "attempt": 1,
+      "problems": [],
+      "raw_output": "{\"signal\":\"BUY\",\"confidence\":0.7,\"justification\":\"The price is 3.3% above the SMA\u201150 and 13.6% above the SMA\u2011200, confirming a strong uptrend while the SMA\u201150 remains above the SMA\u2011200, which reinforces the bullish bias. The MACD line stays above its signal line and above zero, confirming bullish mo"
+    }
+  ],
+  "warnings": [
+    "News source yfinance returned no items"
+  ],
+  "errors": [],
+  "report_paths": {
+    "chart": "outputs/NVDA_2026-10-09/chart.png",
+    "markdown": "outputs/NVDA_2026-10-09/brief.md",
+    "html": "outputs/NVDA_2026-10-09/brief.html",
+    "trace": "outputs/NVDA_2026-10-09/trace.jsonl",
+    "run_json": "outputs/NVDA_2026-10-09/run.json"
+  },
+  "trace_summary": {
+    "wall_time_s": 86.27,
+    "llm_calls": 16,
+    "llm_api_errors": 0,
+    "validation_failures": 0,
+    "input_tokens": 6112,
+    "output_tokens": 2315,
+    "models": [
+      "openai/gpt-oss-120b",
+      "openai/gpt-oss-20b"
+    ],
+    "llm_latency_s": 219.26,
+    "nodes_ms": {
+      "classify_headline": 211790,
+      "generate_signal": 7479,
+      "fetch_news": 1886,
+      "render_report": 676,
+      "fetch_info": 487,
+      "fetch_prices": 305,
+      "validate_input": 133,
+      "compute_indicators": 10,
+      "build_summary": 4,
+      "dispatch_headlines": 0,
+      "aggregate_sentiment": 0,
+      "build_context": 0,
+      "finalize": 0
+    }
+  }
+}
