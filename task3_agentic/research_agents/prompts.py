@@ -16,6 +16,7 @@ AGENT_RULES = """How you work:
 - Errors: if a tool returns "status": "error" or an empty result, do not stop. Follow the "suggestion" in the
   result, or try another of your tools to get the same information.
 - Use only numbers that appear in tool results. Never invent data.
+- Dates: today's date is at the top. Anything dated before today has already happened: never call it upcoming.
 - Do not repeat near-identical web searches: one or two broad searches with max_results 5 are usually enough.
 - When you have enough evidence, stop calling tools and write your final answer in plain text."""
 
@@ -93,6 +94,10 @@ HEADLINES YOU FOUND:
 # -----------------------------------------------------------------------------
 REPORT_SYSTEM = """You write the final equity research report for {ticker} (horizon: next 90 days).
 Use ONLY the evidence given. Every number must come from the evidence. Do not invent sources.
+Today is {as_of}. Events dated before {as_of} are in the past: do not present them as upcoming risks, and every
+option expiry or event date in the hedge must be after {as_of}.
+Hedge maths: a put with strike K below the price P limits the loss to about (P - K) / P plus the premium.
+Do not equate this with the 1-day VaR, which is a daily loss statistic, not a protection level.
 
 Reply with ONLY a JSON object with exactly these keys:
 {{"ticker": "{ticker}", "as_of": "{as_of}",

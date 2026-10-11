@@ -126,3 +126,9 @@ def test_report_failure_is_reported_not_raised(policy_llm, tracer, sentiment_llm
     box = ToolBox(sentiment_llm=sentiment_llm, tracer=tracer, search_backend=search_results)
     result = ResearchSession(TICKER, policy_llm, bad, box, tracer).research()
     assert result.report is None and "research_report" in result.error and bad.calls == 3
+
+
+def test_agent_system_prompt_starts_with_today(tracer, sentiment_llm):
+    from datetime import date
+    agent = make_agent(PolicyLLM(research_policy), tracer, sentiment_llm)
+    assert agent.system.startswith(f"Today's date: {date.today().isoformat()}.")

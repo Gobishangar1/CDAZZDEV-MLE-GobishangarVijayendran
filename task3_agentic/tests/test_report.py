@@ -59,3 +59,9 @@ def test_prompts_are_constants_and_format_cleanly():
 def test_severity_words_are_normalised(raw, expected):
     risks = [{**r, "severity": raw} for r in REPORT["top_three_risks"]]
     assert ResearchReport(**full(top_three_risks=risks)).top_three_risks[0].severity == expected
+
+
+def test_prompts_ground_dates_and_hedge_maths():
+    system = prompts.REPORT_SYSTEM.format(ticker="NVDA", as_of="2026-10-11", clarification_hint="null")
+    assert "Today is 2026-10-11" in system and "after 2026-10-11" in system and "(P - K) / P" in system
+    assert "never call it upcoming" in prompts.AGENT_RULES

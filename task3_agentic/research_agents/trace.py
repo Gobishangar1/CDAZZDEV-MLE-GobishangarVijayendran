@@ -21,7 +21,11 @@ from pathlib import Path
 from typing import Any
 
 from research_agents import config
-from research_agents.config import CONSOLE_CHARS, HANDOFF_FIELD_CHARS, TRACE_OUTPUT_CHARS
+from research_agents.config import (
+    CONSOLE_CHARS,
+    HANDOFF_FIELD_CHARS,
+    TRACE_OUTPUT_CHARS,
+)
 
 
 def _short(value: Any, limit: int) -> str:

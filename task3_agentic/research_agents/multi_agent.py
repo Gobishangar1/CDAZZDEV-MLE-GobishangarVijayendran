@@ -39,7 +39,12 @@ from research_agents.prompts import (
     RESEARCH_WRITER_TASK,
 )
 from research_agents.report import write_report
-from research_agents.schemas import ClarificationRequest, ClarificationResponse, DataBrief, ResearchReport
+from research_agents.schemas import (
+    ClarificationRequest,
+    ClarificationResponse,
+    DataBrief,
+    ResearchReport,
+)
 from research_agents.tools import ToolBox
 
 AGENT_A, AGENT_B = "Agent A (Data Analyst)", "Agent B (Research Writer)"
@@ -227,7 +232,11 @@ def run_research(ticker: str, llm: Any = None, json_llm: Any = None, sentiment_l
             return {**cached, "from_cache": True, "path": str(store.path(ticker, day))}
 
     if llm is None or json_llm is None or sentiment_llm is None:
-        from research_agents.llm import make_agent_llm, make_json_llm, make_sentiment_llm
+        from research_agents.llm import (
+            make_agent_llm,
+            make_json_llm,
+            make_sentiment_llm,
+        )
         llm, json_llm, sentiment_llm = (llm or make_agent_llm(), json_llm or make_json_llm(),
                                         sentiment_llm or make_sentiment_llm())
     toolbox = ToolBox(sentiment_llm=sentiment_llm, tracer=tracer, search_backend=search_backend)

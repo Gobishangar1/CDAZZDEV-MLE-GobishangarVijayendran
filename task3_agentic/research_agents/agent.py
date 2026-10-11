@@ -18,9 +18,16 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass, field
+from datetime import date
 from typing import Annotated, Any, TypedDict
 
-from langchain_core.messages import AIMessage, AnyMessage, HumanMessage, SystemMessage, ToolMessage
+from langchain_core.messages import (
+    AIMessage,
+    AnyMessage,
+    HumanMessage,
+    SystemMessage,
+    ToolMessage,
+)
 from langgraph.graph import END, START, StateGraph
 from langgraph.graph.message import add_messages
 
@@ -63,7 +70,8 @@ class AgentRun:
 class ReActAgent:
     def __init__(self, name: str, tools: list[str], system: str, llm: Any, toolbox: ToolBox, tracer: Any,
                  max_steps: int = AGENT_MAX_STEPS, checkpointer: Any = None) -> None:
-        self.name, self.tools, self.system = name, list(tools), system
+        self.name, self.tools = name, list(tools)
+        self.system = f"Today's date: {date.today().isoformat()}.\n\n{system}"   # date grounding for news/events
         self.allowed = set(tools)
         self.llm = llm
         schemas = toolbox.langchain_tools(self.tools)

@@ -115,7 +115,7 @@ last cell downloads `task3_outputs.zip` (trace, memory file, reports) so they ca
 ```bash
 cd task3_agentic
 pip install -r requirements.txt
-python -m pytest                          # 59 offline tests: fake Yahoo, fake search, scripted models
+python -m pytest                          # 61 offline tests: fake Yahoo, fake search, scripted models
 export GROQ_API_KEY=...                   # or put it in a git-ignored .env file
 python -m research_agents NVDA            # 3B pipeline (loads today's cache if it exists)
 python -m research_agents NVDA --no-cache # force a fresh run
