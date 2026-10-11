@@ -1,0 +1,15 @@
+# Task 1 - LLM-powered equity research assistant (Python 3.10+)
+pandas>=2.0
+numpy>=1.26
+yfinance>=0.2.54        # 0.2.54+ returns news in the nested "content" format (the parser reads both)
+requests>=2.31
+feedparser>=6.0         # Yahoo / Google News RSS fallback
+tenacity>=8.2           # retries for network calls
+pydantic>=2.6
+langchain-core>=0.3
+langchain-groq>=0.3     # reasoning_effort support for GPT-OSS
+langgraph>=0.3
+matplotlib>=3.8
+jinja2>=3.1
+markdown>=3.5
+pytest>=8.0

@@ -1,0 +1,49 @@
+# {{ company }} ({{ ticker }}) - Equity Research Brief
+
+**As of {{ as_of }}** · Price **{{ price }}** · <span class="badge {{ signal_class }}">{{ signal }}</span> · confidence {{ confidence }} · source: {{ signal_source }}
+
+## 1. Company snapshot
+
+| Field | Value | Field | Value |
+|---|---|---|---|
+| Sector | {{ sector }} | Market cap | {{ market_cap }} |
+| Current price | {{ price }} | P/E (trailing) | {{ pe }} |
+| 52-week high | {{ high_52w }} | 52-week low | {{ low_52w }} |
+| From 52-week high | {{ pct_from_high }} | YTD return | {{ ytd }} |
+
+## 2. Technical outlook
+
+![Price with SMA-50, SMA-200 and Bollinger Bands; RSI-14; MACD (12, 26, 9)]({{ chart_src }})
+
+**Momentum signal: {{ momentum_label }}** (score {{ momentum_score }}, from {{ momentum_parts }})
+
+{% for fact in facts %}- {{ fact }}
+{% endfor %}
+{% if conflicts %}**Conflicting signals**
+
+{% for c in conflicts %}- {{ c }}
+{% endfor %}{% endif %}
+## 3. News sentiment
+
+**{{ sentiment_line }}**
+
+{% if top_headlines %}| Headline | Publisher | Sentiment | Conf. | Reason |
+|---|---|---|---|---|
+{% for h in top_headlines %}| {{ h.headline }} | {{ h.publisher }} | {{ h.sentiment }} | {{ h.confidence }} | {{ h.brief_reason }} |
+{% endfor %}{% else %}No headlines could be classified.{% endif %}
+
+## 4. Recommendation: {{ signal }}
+
+{{ justification }}
+
+**Key drivers:** {{ key_drivers }}
+
+**Evidence against the call:** {{ conflicting_evidence }}
+{% if notes %}
+## 5. Data quality notes
+
+{% for n in notes %}- {{ n }}
+{% endfor %}{% endif %}
+---
+
+**Risk disclaimer.** {{ disclaimer }}

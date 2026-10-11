@@ -1,0 +1,17 @@
+# Secrets: never commit (a leaked key disqualifies the submission)
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Notebooks / OS / temporary files
+.ipynb_checkpoints/
+.DS_Store
+outputs.zip

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "equity-research"
+version = "1.0.0"
+description = "CDAZZDEV Task 1: LLM-powered equity research assistant"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["equity_research*"]
+
+[tool.setuptools.package-data]
+equity_research = ["templates/*.j2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+filterwarnings = [
+    # matplotlib's own date code triggers this with numpy >= 2.5; it is not in our code
+    "ignore:The 'generic' unit for NumPy timedelta is deprecated:DeprecationWarning:matplotlib.*",
+]
