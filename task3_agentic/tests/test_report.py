@@ -52,3 +52,10 @@ def test_prompts_are_constants_and_format_cleanly():
     assert '{"items"' in prompts.SENTIMENT_SYSTEM.format()
     system = prompts.REPORT_SYSTEM.format(ticker="NVDA", as_of="2026-10-11", clarification_hint="null")
     assert '"ticker": "NVDA"' in system and '"clarification_used": null' in system
+
+
+@pytest.mark.parametrize("raw, expected", [("High", "high"), ("Medium-High", "high"), ("moderate", "medium"),
+                                           (" LOW ", "low")])
+def test_severity_words_are_normalised(raw, expected):
+    risks = [{**r, "severity": raw} for r in REPORT["top_three_risks"]]
+    assert ResearchReport(**full(top_three_risks=risks)).top_three_risks[0].severity == expected

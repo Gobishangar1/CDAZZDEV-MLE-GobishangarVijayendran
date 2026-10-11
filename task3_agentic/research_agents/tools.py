@@ -42,6 +42,7 @@ from research_agents.config import (
     MAX_SEARCH_RESULTS,
     MAX_SENTIMENT_HEADLINES,
     MAX_VOL_WINDOW,
+    MIN_SEARCH_RESULTS,
     MIN_VOL_WINDOW,
     RECENT_ROWS,
     SENTIMENT_THRESHOLD,
@@ -258,6 +259,7 @@ class ToolBox:
 
     # --------------------------------------------------------- 5. web search
     def web_search(self, query: str, max_results: int = DEFAULT_SEARCH_RESULTS) -> SearchResult:
+        max_results = max(max_results, MIN_SEARCH_RESULTS)
         try:
             raw = self.search_backend(query, max_results) or []
         except Exception as exc:                          # rate limits, timeouts, network

@@ -16,6 +16,7 @@ AGENT_RULES = """How you work:
 - Errors: if a tool returns "status": "error" or an empty result, do not stop. Follow the "suggestion" in the
   result, or try another of your tools to get the same information.
 - Use only numbers that appear in tool results. Never invent data.
+- Do not repeat near-identical web searches: one or two broad searches with max_results 5 are usually enough.
 - When you have enough evidence, stop calling tools and write your final answer in plain text."""
 
 # -----------------------------------------------------------------------------

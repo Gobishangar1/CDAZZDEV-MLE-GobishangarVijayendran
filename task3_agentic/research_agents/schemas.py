@@ -182,6 +182,21 @@ class Risk(BaseModel):
     sources: list[str] = Field(min_length=1)    # tool names or URLs the evidence came from
     severity: Literal["high", "medium", "low"]
 
+    @field_validator("severity", mode="before")
+    @classmethod
+    def _normalise_severity(cls, value: Any) -> Any:
+        """Accept 'High', 'Medium-High', 'moderate', 'critical' etc. instead of failing the whole report."""
+        if not isinstance(value, str):
+            return value
+        v = value.strip().lower()
+        if v in ("high", "medium", "low"):
+            return v
+        if "high" in v or "critical" in v or "severe" in v:
+            return "high"
+        if "medium" in v or "moderate" in v or "mid" in v:
+            return "medium"
+        return "low" if "low" in v or "minor" in v else value
+
 
 class HedgeStrategy(BaseModel):
     strategy: str
