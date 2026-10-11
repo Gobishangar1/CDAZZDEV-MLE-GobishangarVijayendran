@@ -27,7 +27,7 @@ tools. The critique round therefore carries B's headlines to A, and the report s
 answer was used. Handoff numbers are copied from tool results by code, so the LLM cannot change them in transit.
 
 **Free-tier engineering.** Groq limits are per model, so GPT-OSS-120B and 20B are each other's fallback. Tool
-outputs sent to the model are capped (2,500 characters, five OHLCV rows) to fit about 8K tokens per minute.
+outputs sent to the model are capped to fit about 8K tokens per minute; a full run still takes minutes.
 
 ## What I would improve with more time
 
@@ -42,11 +42,11 @@ outputs sent to the model are capped (2,500 characters, five OHLCV rows) to fit 
 ## Limitations encountered
 
 - **Free news is noisy.** yfinance returned no news on my first run and Yahoo RSS gave 13 off-topic headlines
-  out of 15. A relevance filter and a three-source chain help, but miss articles that do not name the company.
-- **DuckDuckGo rate-limits without warning.** The agents treat this as a tool failure and switch to news.
-- **Agents are not deterministic.** Two runs can call tools in a different order. The tests use scripted
-  models, so they check the mechanics, not the model's judgement.
-- **Rate limits** make a full Task 3 notebook run take several minutes.
-- **The brief suggests Llama-3 on Groq**, which is no longer on the free tier, so I used GPT-OSS. Model names
-  are configuration.
+  out of 15. A relevance filter and three sources help, but miss articles that do not name the company.
+- **DuckDuckGo often fails from Colab.** The agents treat this as a tool failure and switch to news.
+- **Agents are not deterministic, and their judgement varies.** My first run called a past earnings date
+  "upcoming", so every agent now gets today's date. In the failure demo the agent retried the broken tool
+  more than suggested (a per-run circuit breaker would fix this), and one report invented an option premium.
+  Tests use scripted models: they check mechanics, not judgement.
+- **The brief suggests Llama-3 on Groq**, which is no longer on the free tier, so I used GPT-OSS.
 - **Nothing is backtested.** The signal and the hedge are illustrations, not investment advice.
