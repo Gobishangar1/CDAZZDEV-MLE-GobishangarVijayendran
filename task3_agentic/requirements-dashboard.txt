@@ -1,0 +1,3 @@
+# Optional: the Streamlit trace dashboard (bonus). pip install -r requirements-dashboard.txt
+streamlit>=1.46
+altair>=5.0

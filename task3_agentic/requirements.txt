@@ -1,0 +1,13 @@
+# Task 3 - multi-agent financial research system (Python 3.10+)
+pandas>=2.0
+numpy>=1.26
+yfinance>=0.2.54        # 0.2.54+ returns news in the nested "content" format (the parser reads both)
+requests>=2.31
+feedparser>=6.0         # Yahoo / Google News RSS fallback for get_news
+tenacity>=8.2           # retries for price downloads
+pydantic>=2.6           # tool results, agent handoffs, report
+langchain-core>=0.3
+langchain-groq>=0.3     # reasoning_effort for GPT-OSS; returns the model's reasoning separately
+langgraph>=0.3          # StateGraph + InMemorySaver checkpointer (short-term memory)
+ddgs>=9.0               # the duckduckgo-search library (renamed to "ddgs" by its author in 2025)
+pytest>=8.0

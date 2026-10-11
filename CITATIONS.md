@@ -42,13 +42,51 @@ headlines out of 15).
 | `task1_financial/notebooks/task1_equity_research.ipynb` | Notebook cells in rubric order, including a fault-injection demo | 2026-10-11 |
 | `README.md`, `task1_financial/README.md`, `REFLECTION.md` (first draft) | Documentation drafts, edited by me | 2026-10-11 |
 
+## AI-assisted code (Task 3)
+
+For Task 3 I used Claude in the same way: it drafted the code from a design I agreed (LangGraph ReAct loop,
+one executor for all tool calls, typed handoffs, one critique round), and I reviewed it, ran the offline tests and
+ran the notebook on real data in Colab.
+
+| File | Prompt (short) | Date |
+|---|---|---|
+| `task3_agentic/research_agents/config.py` | Constants for models, limits, windows and trace/memory paths; Groq key loading | 2026-10-11 |
+| `task3_agentic/research_agents/schemas.py` | Pydantic schemas for five tool results, a typed handoff (data brief, clarification request/response) and a three-section report | 2026-10-11 |
+| `task3_agentic/research_agents/prompts.py` | System prompts for a ReAct research agent, a data analyst, a research writer with a critique step, a report writer and a sentiment tool | 2026-10-11 |
+| `task3_agentic/research_agents/tools.py` | Five tools with Pydantic arguments, and an executor that enforces per-agent tool access, turns errors into suggestions and logs every call | 2026-10-11 |
+| `task3_agentic/research_agents/llm.py` | Groq model factories with fallback; JSON + Pydantic structured output with repair retries | 2026-10-11 |
+| `task3_agentic/research_agents/agent.py` | Reusable LangGraph ReAct agent: tool restriction, malformed-call retries, step budget, checkpointer memory, trace | 2026-10-11 |
+| `task3_agentic/research_agents/single_agent.py` | 3A session with all five tools, validated report, follow-up questions from session memory | 2026-10-11 |
+| `task3_agentic/research_agents/multi_agent.py` | Two-agent pipeline with restricted tools, Pydantic handoffs, one clarification round and a JSON brief cache | 2026-10-11 |
+| `task3_agentic/research_agents/memory.py` | JSON brief store keyed by ticker and date | 2026-10-11 |
+| `task3_agentic/research_agents/report.py` | Validated three-section report from agent evidence; Markdown rendering | 2026-10-11 |
+| `task3_agentic/research_agents/trace.py`, `trace_view.py` | Thread-safe JSONL tracer (200-character outputs) with a readable console trace; trace-to-table helpers | 2026-10-11 |
+| `task3_agentic/research_agents/market.py`, `news.py` | Compact versions of the Task 1 data and news code for the tools (see below) | 2026-10-11 |
+| `task3_agentic/research_agents/__main__.py` | Small argparse CLI | 2026-10-11 |
+| `task3_agentic/dashboard/app.py` | Streamlit dashboard that reads `agent_trace.jsonl` (bonus) | 2026-10-11 |
+| `task3_agentic/tests/*.py` | Offline pytest suite: fake yfinance, fake search, an observation-driven scripted tool-calling model, a JSON model | 2026-10-11 |
+| `task3_agentic/notebooks/task3_agentic_research.ipynb` | Notebook cells in rubric order, with a tool-failure demo | 2026-10-11 |
+| `task3_agentic/README.md`, root `README.md` and `REFLECTION.md` updates | Documentation drafts, edited by me | 2026-10-11 |
+
 ## Adapted open-source code
 
-None. No code was copied from other repositories. Indicator formulas follow their standard published
+No code was copied from other repositories. Indicator formulas follow their standard published
 definitions (Wilder 1978 for RSI; Appel for MACD; Bollinger for Bollinger Bands); no TA-Lib or other
 indicator library is used, not even in the tests.
 
+Code reused inside this repository (Task 3 is self-contained, so it has its own copies):
+
+```python
+# SOURCE: Adapted from task1_financial/equity_research/market_data.py and indicators.py (this repository)
+# SOURCE: Adapted from task1_financial/equity_research/news.py (this repository)
+```
+
+The Task 3 agent loop follows the standard LangGraph pattern (an agent node, a tools node and a conditional
+edge between them) described in the LangGraph documentation; it is written from scratch, not copied.
+`web_search` calls the `ddgs` library (the `duckduckgo-search` package under its new name) as a dependency.
+
 ## Teacher-model prompts
 
-Not applicable to Task 1 (no synthetic training data). All runtime prompts are in
-`task1_financial/equity_research/prompts.py` and are printed in the notebook appendix.
+Not applicable (no synthetic training data in Task 1 or Task 3). All runtime prompts are constants in
+`task1_financial/equity_research/prompts.py` and `task3_agentic/research_agents/prompts.py`, and each
+notebook prints them in its appendix.
