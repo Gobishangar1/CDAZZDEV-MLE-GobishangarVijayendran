@@ -2,60 +2,61 @@
 
 ## 1. Financial Health Summary
 
-NVDA is in a short‑term uptrend, trading 13.2% above its 3‑month ago level and staying above both the 50‑day (221.94) and 200‑day (201.83) SMAs, confirming bullish momentum. Valuation is modestly below its 52‑week high (‑5.79%) and technical indicators (RSI 53, MACD positive) are neutral‑to‑bullish. Volatility remains elevated at 38.5% annualised (65th percentile) with a 1‑year max drawdown of 20.2% and a 1‑day 95% VaR of –3.9%, indicating sizable downside risk on adverse moves.
+NVDA’s share price closed at $229.28, up 13.2% over the past three months, and remains above both the 50‑ and 200‑day moving averages, indicating a sustained uptrend. The 90‑day annualised volatility of 38.5% sits at the 65th percentile of the past year, signalling moderate risk. The 1‑day 95% VaR of 3.88% translates to a potential $8.9 loss per share. Overall sentiment is neutral, with mixed institutional activity.
 
-- Price: 229.28
-- 3‑mo return: 13.19%
-- Annualised 90‑day volatility: 38.51%
-- 1‑day 95% VaR: -3.9%
-- 1‑yr max drawdown: -20.21%
-- 52‑wk high: 243.37 (‑5.79% from current)
+- price 229.28
+- 3mo return 13.19%
+- 52w high 243.37
+- 52w low 163.90
+- pct from 52w high -5.79%
+- 90‑day vol 38.51%
+- 1‑day 95% VaR -3.88%
 
-**Market sentiment:** LLM sentiment on the latest 15 headlines is positive (score 0.273) with 9 positive, 1 neutral and 5 negative mentions, suggesting a modestly upbeat market mood despite some sell‑side activity.
+**Market sentiment:** Neutral sentiment from recent headlines; institutional selling and buying are roughly balanced, suggesting no strong directional bias.
 
 ## 2. Top Three Risks (next 90 days)
 
-### 1. Elevated short‑term volatility and drawdown risk (high)
+### 1. Intensifying competition in the AI‑accelerator market (high)
 
-The stock’s 90‑day annualised volatility of 38.5% and a historical 1‑year peak‑to‑trough decline of 20.2% could trigger sharp price drops within the next 90 days, especially if broader market stress returns.
-
-Evidence:
-- Annualised volatility 38.51% (90‑day window)
-- Max drawdown 1‑yr -20.21%
-- 1‑day 95% VaR -3.9%
-Sources: calculate_volatility, get_price_data
-
-### 2. Potential slowdown in AI‑chip demand (medium)
-
-Analyst commentary and recent articles flag a risk that AI data‑center demand may soften later in 2026, which would pressure NVDA’s revenue growth and share price.
+New competitors such as Google TPUs, AMD MI300, and Intel Habana chips are narrowing performance gaps and increasing price sensitivity, potentially eroding NVDA’s market share and margins within 90 days.
 
 Evidence:
-- "Nvidia stock forecast 2026 faces a new test as an analyst downgrades NVDA near record highs despite explosive AI growth" (stockminded.com)
-- "AI development slowdown: what it means for Nvidia..." (invezz.com)
-Sources: web_search
+- Google TPUs gain traction (MarketBeat forecast)
+- Competition for talent and rising costs (TipRanks risk factor)
+Sources: https://www.tipranks.com/stocks/nvda/risk-factors, https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/
 
-### 3. Intensifying competition from AMD, Intel and custom silicon (medium)
+### 2. Export‑control and geopolitical risk (high)
 
-Rising competition in the AI accelerator market could erode NVDA’s market share and pricing power, creating head‑room for a corrective move in the next quarter.
+U.S. export restrictions on China and other high‑tech jurisdictions could limit NVDA’s ability to sell GPUs and data‑center chips, and may disrupt supply chains, impacting revenue and earnings in the near term.
 
 Evidence:
-- "The AI Chip Wars: NVIDIA, AMD, and Custom Silicon Explained 2026" (hakia.com)
-- "The GPU Market War 2026: NVIDIA vs AMD vs Custom Silicon" (data-gate.ch)
-Sources: web_search
+- Export controls and geopolitical risks listed in FY 2026 10‑K
+- Potential revenue impact noted in risk factors
+Sources: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+
+### 3. Supply‑chain and manufacturing risk (medium)
+
+NVDA relies heavily on TSMC for advanced process nodes; any disruption—natural disaster, geopolitical tension, or capacity constraints—could delay product launches and hurt earnings over the next 90 days.
+
+Evidence:
+- Supply‑chain disruptions cited in 10‑K
+- Foundry capacity constraints noted as risk
+Sources: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 
 ## 3. Hedge Strategy Recommendation
 
-**Buy 3‑month (≈90‑day) out‑of‑the‑money put option** using 3‑month put, strike ~218 (≈5% below current 229.28) covering 100 shares.
+**3‑month put option collar** using Buy 3‑month put with strike $210 (≈9% below current price) and sell 3‑month call with strike $240.
 
-The hedge caps downside to roughly the 1‑day VaR level (‑3.9%) and protects against the high 38.5% annualised volatility and the 20% historic drawdown, which are the primary risk drivers identified.
+The put limits downside exposure from competition, export‑control, and supply‑chain risks, while the call generates premium to offset the put cost. The strike levels are chosen to cap loss at roughly (229.28‑210)/229.28 ≈ 8.3% plus premium, aligning with the 1‑day 95% VaR of 3.88%.
 
 Data points:
-- Annualised volatility 38.51% (90‑day)
-- 1‑day 95% VaR -3.9%
-Sizing / trigger: Buy one put contract (100 shares) at strike 218; if price falls below 218 the put offsets losses, otherwise the position expires worthless.
+- current price 229.28
+- 90‑day vol 38.51%
+- 1‑day 95% VaR -3.88%
+Sizing / trigger: Hold one put per share; trigger if price falls below $210 within 90 days
 
-**How the analyst's clarification was used:** Agent A’s sentiment analysis added an overall positive score of 0.273 (9 positive, 5 negative, 1 neutral) which confirmed the modestly upbeat market sentiment reflected in the summary.
+**How the analyst's clarification was used:** Agent A’s sentiment analysis confirmed a neutral overall tone (score 0.074) and balanced institutional activity, supporting the neutral market sentiment assessment in the report.
 
-Sources: calculate_volatility; get_price_data; get_news; web_search
+Sources: calculate_volatility; get_price_data; llm_sentiment; web_search
 
 *Generated automatically for educational purposes. Not investment advice. Data may be delayed or incomplete, and LLM output can be wrong.*

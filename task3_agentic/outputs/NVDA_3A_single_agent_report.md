@@ -2,61 +2,53 @@
 
 ## 1. Financial Health Summary
 
-NVDA has rallied +13.19% over the past three months and is trading comfortably above both its 50‑day (221.94) and 200‑day (201.83) moving averages, indicating a sustained uptrend. Technical momentum remains positive with RSI at 53 (neutral) and a modestly positive MACD histogram (+0.12). Volatility is low for the year – 30‑day annualised volatility is 29.45%, placing it in the 6th percentile of the past 12 months, while the 1‑day 95 % VaR is –3.88%.
+NVDA has risen 13.2% over the past three months, trading at $229.28 and staying above its 50‑day ($221.94) and 200‑day ($201.83) moving averages, indicating strong bullish momentum. Volatility is low (30‑day annualised 29.45% at the 7th percentile) and the 1‑day 95% VaR is –3.88%, suggesting modest downside risk in the near term. Sentiment is mildly positive (LLM score +0.19) with more institutional buys than sells.
 
-- 3‑month return: +13.19%
-- Last close: $229.28
-- SMA‑50: $221.94
-- SMA‑200: $201.83
-- RSI‑14: 53.0
-- MACD histogram: 0.1185
-- Bollinger %B: 0.5811
+- Price: $229.28
+- 3‑mo return: 13.19%
 - 30‑day annualised volatility: 29.45%
-- 1‑day 95 % VaR: –3.88%
-- 1‑year max drawdown: –20.21%
+- 1‑day 95% VaR: -3.88%
+- RSI (14): 53.0
 
-**Market sentiment:** LLM sentiment analysis of recent headlines yields a modestly positive score (+0.192) with 7 bullish versus 5 bearish mentions, reflecting overall optimism tempered by visible institutional selling.
+**Market sentiment:** Analyst headlines show a net positive tilt (7 positive vs 5 negative), but mixed institutional activity signals cautious optimism.
 
 ## 2. Top Three Risks (next 90 days)
 
-### 1. Earnings surprise risk (high)
+### 1. AI‑demand slowdown / data‑center utilisation risk (high)
 
-NVDA’s next earnings report is slated for 26 Aug 2026 (Q2 FY27) with analysts forecasting $93‑$95 B revenue; a miss or weaker guidance could trigger a sharp sell‑off in the next 90 days.
-
-Evidence:
-- Earnings date: 26 Aug 2026
-- Revenue forecast $93‑$95 B
-Sources: web_search (https://alphio.ai/blog/nvda-earnings-august-2026)
-
-### 2. Institutional sell pressure (medium)
-
-Multiple large investors have disclosed recent sales of NVDA shares, which could add downward pressure on the stock if the selling continues.
+If enterprise spending on AI‑accelerated servers eases, NVDA’s core revenue growth could stall, pressuring the share price over the next 90 days.
 
 Evidence:
-- Osterweis Capital Management Inc. Sells 6,347 Shares
-- NVIDIA Corporation $NVDA Stock Sold by Primecap Management Co.
-- 268,305 NVIDIA Shares Sold by The Manufacturers Life Insurance Company
-Sources: get_news
+- "Explore NVIDIA stock analysis for 2026, including AI data center demand, valuation, competition, margins, risks, and key factors investors should watch." (IQOption article)
+Sources: https://blog.iqoption.com/en/nvidia-nvda-stock-analysis-key-drivers-and-outlook-for-2026/
 
-### 3. Supply‑chain concentration risk (medium)
+### 2. Intensifying competition (medium)
 
-NVDA’s heavy reliance on TSMC and a few key suppliers makes it vulnerable to geopolitical tensions and fab bottlenecks that could delay deliveries and compress margins.
+Rival chip makers (AMD, Intel, Chinese AI‑chip firms) are closing the performance gap and offering cheaper alternatives, which could erode NVDA’s market share.
 
 Evidence:
-- NVIDIA Geopolitical Supply Chain Risk Assessment – highlights geopolitical fragmentation and Taiwan concentration
-Sources: web_search (https://nova.kapualabs.com/nvda-stock_panel_c/nvidias-geopolitical-supply-chain-a-definitive-risk-assessment/)
+- "...competition... is a risk" (IQOption article)
+Sources: https://blog.iqoption.com/en/nvidia-nvda-stock-analysis-key-drivers-and-outlook-for-2026/
+
+### 3. Geopolitical/export‑control exposure (medium)
+
+Tighter export licences to China could curtail sales to major Chinese cloud providers, hurting top‑line and margins.
+
+Evidence:
+- "China export restrictions" (IQOption article)
+Sources: https://blog.iqoption.com/en/nvidia-nvda-stock-analysis-key-drivers-and-outlook-for-2026/
 
 ## 3. Hedge Strategy Recommendation
 
-**Buy a protective put option** using 3‑month NVDA put, strike ~5% OTM (~$217).
+**Protective put** using 1‑month $220 put option (≈4% OTM).
 
-With 30‑day annualised volatility at 29.45% (low) and a 1‑day 95 % VaR of –3.88%, a 5% OTM put caps downside from earnings miss or sell‑off while preserving upside from the current uptrend.
+The 1‑day 95% VaR of -3.88% indicates a near‑term tail loss of about 4%; buying a $220 put caps downside while the low 30‑day volatility (29.45%) keeps the premium modest. This hedge directly addresses the downside risk from any of the three identified threats.
 
 Data points:
 - 30‑day annualised volatility: 29.45%
-- 1‑day 95 % VaR: –3.88%
-Sizing / trigger: Buy 1 contract (100 shares) per 1000 shares held; strike set at $217 (≈5% below current $229.28) with expiration aligned to the earnings date (late Aug)
+- 1‑day 95% VaR: -3.88%
+Sizing / trigger: Buy one contract per 1000 shares held (100‑share contract size). Strike $220, expiry ~2026-11-11, premium estimated ~5% of spot (~$11.5 per share).
 
-Sources: get_price_data; calculate_volatility; get_news; llm_sentiment; web_search
+Sources: get_price_data; calculate_volatility; llm_sentiment; https://blog.iqoption.com/en/nvidia-nvda-stock-analysis-key-drivers-and-outlook-for-2026/
 
 *Generated automatically for educational purposes. Not investment advice. Data may be delayed or incomplete, and LLM output can be wrong.*
