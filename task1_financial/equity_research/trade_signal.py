@@ -11,9 +11,6 @@ Two validation levels:
 
 The retry loop itself is the graph edge generate_signal -> generate_signal (see graph.py).
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Semantic validator for an LLM trading signal
-# (numbers grounded in facts, >=2 indicators, conflicts addressed, anti-echo) and a deterministic
-# fallback signal', Date: 2026-10-11
 
 from __future__ import annotations
 

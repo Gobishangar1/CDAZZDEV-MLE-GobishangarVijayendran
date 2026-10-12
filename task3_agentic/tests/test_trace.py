@@ -1,5 +1,4 @@
 """3C observability: agent_trace.jsonl has tool name, inputs, output (max 200 chars) and duration per call."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for a JSONL agent tracer', Date: 2026-10-11
 
 import json
 

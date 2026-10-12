@@ -1,6 +1,4 @@
 """News retrieval (10 marks): both yfinance formats, RSS parsing, de-duplication, provider chain."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for the news provider chain with
-# fake providers and sample RSS', Date: 2026-10-11
 
 from datetime import datetime, timezone
 

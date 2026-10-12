@@ -6,9 +6,6 @@
 
 Nothing travels between agents as a raw string: each message is one of these models.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Pydantic schemas for five research tools, a typed
-# agent handoff (data brief, clarification request/response) and a three-section research report',
-# Date: 2026-10-11
 
 from __future__ import annotations
 

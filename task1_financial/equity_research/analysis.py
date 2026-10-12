@@ -4,9 +4,6 @@
     momentum_signal(snapshot)     weighted vote of the indicators -> MomentumSignal
     build_summary(...)            the required summary -> MarketSummary (.model_dump() for the dict)
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Build the Task 1A summary (price, 52-week range,
-# P/E with fallbacks, YTD return) and a weighted rule-based momentum score with re-normalisation
-# for missing indicators', Date: 2026-10-11
 
 from __future__ import annotations
 

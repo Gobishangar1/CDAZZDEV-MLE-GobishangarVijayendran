@@ -7,8 +7,6 @@ clarification_response, report, cache_hit, cache_saved, llm_error.
 With verbose=True the same events are printed as a readable message trace (what each agent said, which tools
 it called, what was handed over), which is what the notebook shows.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Thread-safe JSONL tracer for agent tool calls with
-# 200-char output truncation, plus a readable console message trace', Date: 2026-10-11
 
 from __future__ import annotations
 

@@ -1,6 +1,5 @@
 """Command line: python -m equity_research NVDA [--out outputs] [--no-json-mode]"""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Small argparse CLI that runs the pipeline and
-# prints the signal and report paths', Date: 2026-10-11
+
 
 import argparse
 import json

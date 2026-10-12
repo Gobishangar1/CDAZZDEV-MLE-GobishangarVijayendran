@@ -1,6 +1,4 @@
 """3B: restricted tools, typed handoffs, one critique round, end-to-end without manual steps."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for a two-agent LangGraph pipeline with
-# restricted tools, Pydantic handoffs and one clarification round', Date: 2026-10-11
 
 import json
 

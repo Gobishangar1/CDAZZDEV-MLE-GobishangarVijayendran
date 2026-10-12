@@ -3,9 +3,6 @@
 Adapted from Task 1 (task1_financial/equity_research/market_data.py and indicators.py), kept as a separate copy
 so Task 3 runs on its own.
 """
-# SOURCE: Adapted from task1_financial/equity_research/market_data.py and indicators.py (this repository)
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Compact yfinance history fetch with retries and a
-# per-session cache, plus SMA/RSI/MACD/Bollinger for the Task 3 tools', Date: 2026-10-11
 
 from __future__ import annotations
 

@@ -1,6 +1,4 @@
 """Read agent_trace.jsonl into tables (used by the notebook and the Streamlit dashboard)."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pandas helpers to load a JSONL agent trace and build
-# per-run tool-call, message and handoff tables', Date: 2026-10-11
 
 from __future__ import annotations
 

@@ -12,9 +12,6 @@ sentiment, price or volatility tools. The final report needs both.
 run_research() wraps the graph: if memory/<TICKER>_<date>.json exists it is loaded (no tools run);
 otherwise the pipeline runs end to end with no manual step, and the result is saved.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'LangGraph two-agent pipeline (data analyst and research
-# writer) with restricted tool access, Pydantic handoff, one clarification round and a JSON brief cache',
-# Date: 2026-10-11
 
 from __future__ import annotations
 

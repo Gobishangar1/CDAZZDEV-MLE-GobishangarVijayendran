@@ -8,9 +8,6 @@ Fallback design (one free provider, one key):
 
 LLMs are passed into the graph (build_graph(fast_llm, strong_llm)), so tests use fakes.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Groq ChatGroq factory with rate limiter, timeout,
-# retries, JSON mode and a fallback to the other model; helpers to extract JSON and summarise
-# Pydantic errors', Date: 2026-10-11
 
 from __future__ import annotations
 

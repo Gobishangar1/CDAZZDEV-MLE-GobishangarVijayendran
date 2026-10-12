@@ -13,9 +13,6 @@ ToolBox.execute() is the only way agents run tools. It:
     - marks empty results as "empty" (with a suggestion), never as success
     - logs every call to agent_trace.jsonl (inputs, 200-char output, duration, status)
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Five research tools (price+indicators, news, annualised
-# volatility, batch LLM sentiment, duckduckgo web search) with Pydantic args, plus an executor that enforces
-# per-agent tool access, converts errors into actionable suggestions and logs every call', Date: 2026-10-11
 
 from __future__ import annotations
 

@@ -4,7 +4,6 @@
     python -m research_agents NVDA --no-cache   # ignore today's cached brief
     python -m research_agents NVDA --single     # 3A single agent + one follow-up question
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'argparse CLI for the Task 3 research agents', Date: 2026-10-11
 
 import argparse
 import json

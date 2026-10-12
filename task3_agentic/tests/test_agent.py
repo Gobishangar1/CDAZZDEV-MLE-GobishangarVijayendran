@@ -1,7 +1,4 @@
 """3A agent loop (observe -> decide -> act), error replanning, step budget, and 3C short-term memory."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for a LangGraph ReAct agent: observation-
-# driven tool order, replanning after a failed tool, malformed tool calls, step budget, follow-up from
-# checkpointer memory', Date: 2026-10-11
 
 from conftest import TICKER, PolicyLLM, failing_search, research_policy, search_results
 from langchain_core.messages import AIMessage, ToolMessage

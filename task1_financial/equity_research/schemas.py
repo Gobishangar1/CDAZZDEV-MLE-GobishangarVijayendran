@@ -7,9 +7,6 @@ LLM-facing (validated before use):
 Pipeline outputs (built by code, validated so every required field is present):
     MomentumSignal, MarketSummary (the "summary dictionary"), SentimentSummary
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Pydantic schemas for headline sentiment
-# (headline, sentiment, confidence, brief_reason), trade signal with a 3-5 sentence validator,
-# market summary and momentum signal', Date: 2026-10-11
 
 from __future__ import annotations
 

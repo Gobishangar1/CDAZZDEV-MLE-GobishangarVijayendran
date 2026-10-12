@@ -1,6 +1,4 @@
 """3C persistent memory: the brief is saved as JSON keyed by ticker and date; the next run loads it."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for a ticker+date JSON cache in front of a
-# multi-agent pipeline', Date: 2026-10-11
 
 from datetime import date
 

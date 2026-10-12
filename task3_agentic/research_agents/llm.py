@@ -5,8 +5,6 @@
     make_sentiment_llm() small JSON-mode model for the llm_sentiment tool
     invoke_json(...)     call -> extract JSON -> validate with Pydantic -> repair retry (logged)
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Groq LLM factories with fallback for tool calling and
-# a JSON + Pydantic structured-output helper with repair retries', Date: 2026-10-11
 
 from __future__ import annotations
 

@@ -1,6 +1,4 @@
 """Summary dictionary (10 marks) and the rule-based momentum signal."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for P/E fallbacks, YTD return,
-# momentum scenarios and the summary fields', Date: 2026-10-11
 
 import pandas as pd
 import pytest

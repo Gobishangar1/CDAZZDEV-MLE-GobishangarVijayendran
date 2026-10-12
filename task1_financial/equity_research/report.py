@@ -7,9 +7,6 @@
 The brief contains what the bonus asks for: company snapshot, technical outlook, news sentiment
 with the top three headlines, the recommendation with its reasoning, and a risk disclaimer.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Render a one-page equity research brief from the
-# pipeline result: Jinja2 Markdown template, 3-panel matplotlib chart embedded as base64 in styled
-# HTML, risk disclaimer', Date: 2026-10-11
 
 from __future__ import annotations
 

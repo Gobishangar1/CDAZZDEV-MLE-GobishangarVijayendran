@@ -5,8 +5,6 @@
 On a later run with the same ticker (same day), run_research() finds this file and loads it instead of
 running the agents and tools again.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'JSON brief store keyed by ticker and date for cached
-# agent runs', Date: 2026-10-11
 
 from __future__ import annotations
 

@@ -1,7 +1,4 @@
 """ALL prompt text for Task 3, as constants (system = rules, human = data)."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'System prompts for a ReAct research agent, a data
-# analyst agent, a research writer agent with a critique step, a report writer and a sentiment tool',
-# Date: 2026-10-11
 
 # -----------------------------------------------------------------------------
 # Shared rules for every tool-using agent

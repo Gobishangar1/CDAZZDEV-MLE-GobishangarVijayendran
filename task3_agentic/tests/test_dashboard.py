@@ -1,6 +1,4 @@
 """Trace tables and the Streamlit dashboard (bonus) render from a real trace file without errors."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for trace tables and a Streamlit AppTest
-# smoke test of the trace dashboard', Date: 2026-10-11
 
 from pathlib import Path
 

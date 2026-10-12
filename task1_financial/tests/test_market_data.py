@@ -1,6 +1,4 @@
 """OHLCV fetch (10 marks) and robustness: computed dates, cleaning, retries, fail-soft info."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for market_data.py with a fake
-# yfinance Ticker: dates, cleaning, retries, young stock, data checks, fail-soft info', Date: 2026-10-11
 
 import numpy as np
 import pandas as pd

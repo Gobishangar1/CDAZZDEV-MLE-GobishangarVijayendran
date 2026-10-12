@@ -10,9 +10,7 @@
 Short-term memory: with a checkpointer, every run() on the same thread_id continues the same conversation,
 so a follow-up question can be answered from earlier tool results without calling tools again.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Reusable LangGraph ReAct agent with per-agent tool
-# restriction, malformed-tool-call retries, a step budget, optional checkpointer memory and trace output',
-# Date: 2026-10-11
+
 
 from __future__ import annotations
 

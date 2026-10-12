@@ -9,9 +9,6 @@ Why LangGraph for a fixed pipeline?
 
 Rule used everywhere: nodes WRITE state; routers only READ state and return the next node.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'LangGraph StateGraph for the Task 1 pipeline:
-# parallel fetches, Send fan-out per headline with reducers, two joins, a validation retry loop with
-# feedback, rule-based fallback, report node, error report, node_guard', Date: 2026-10-11
 
 from __future__ import annotations
 

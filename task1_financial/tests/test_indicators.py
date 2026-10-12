@@ -1,7 +1,5 @@
 """Indicator accuracy (25 marks): hand-computed values, an independent re-implementation, and
 mathematical properties. All expected values below were worked out by hand in the lessons."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for SMA, EMA, Wilder RSI, MACD and
-# Bollinger: hand-computed cases, independent loop implementations, edge cases', Date: 2026-10-11
 
 import numpy as np
 import pandas as pd

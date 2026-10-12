@@ -5,8 +5,6 @@ Each prompt has two roles:
     human   = only the data for this one call
 Literal JSON braces are doubled ({{ }}) because these are template strings.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'System and human prompt templates for per-headline
-# sentiment and a Buy/Hold/Sell signal that must reason over indicator combinations', Date: 2026-10-11
 
 from langchain_core.prompts import ChatPromptTemplate
 

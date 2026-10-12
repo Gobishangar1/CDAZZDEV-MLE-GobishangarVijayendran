@@ -1,7 +1,5 @@
 """Signal reasoning (15 marks) and validation (10 marks): facts, conflicts, the semantic validator,
 one LLM attempt, and the rule-based fallback."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for facts/conflicts, the signal
-# validator (invented numbers, echo, confidence, unicode dashes) and the fallback', Date: 2026-10-11
 
 import json
 

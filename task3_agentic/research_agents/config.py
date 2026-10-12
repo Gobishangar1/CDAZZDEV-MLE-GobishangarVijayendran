@@ -1,6 +1,4 @@
 """Every constant for Task 3 (no magic numbers elsewhere), plus API-key and logging setup."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Config for a multi-agent financial research system:
-# tool limits, agent budgets, Groq models, trace and memory paths, each with a reason', Date: 2026-10-11
 
 from __future__ import annotations
 

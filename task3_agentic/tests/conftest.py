@@ -5,9 +5,6 @@
                    has observed (so the loop, replanning and memory are tested without a real LLM)
     FakeJSONLLM    answers the JSON prompts (sentiment, clarification request, final report)
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest fakes for a LangGraph tool-calling agent: fake
-# yfinance ticker, an observation-driven scripted tool-calling model, a JSON model for structured outputs',
-# Date: 2026-10-11
 
 from __future__ import annotations
 

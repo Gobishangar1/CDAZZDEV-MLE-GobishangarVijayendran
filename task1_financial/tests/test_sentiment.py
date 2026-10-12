@@ -1,7 +1,5 @@
 """Per-headline JSON (10 marks) and structured-output validation: schema, repair, logged failures,
 aggregation logic."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for headline classification with a
-# fake LLM (valid, repaired, failed, API error) and for sentiment aggregation', Date: 2026-10-11
 
 import json
 import logging

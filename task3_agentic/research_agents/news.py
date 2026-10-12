@@ -2,9 +2,6 @@
 
 Adapted from Task 1 (task1_financial/equity_research/news.py), kept as a separate copy.
 """
-# SOURCE: Adapted from task1_financial/equity_research/news.py (this repository)
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'News provider chain with relevance filter for the
-# Task 3 get_news tool', Date: 2026-10-11
 
 from __future__ import annotations
 

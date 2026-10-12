@@ -8,9 +8,6 @@ Provider chain: stop as soon as NEWS_MIN unique headlines are collected.
 Every headline becomes the same dict:
     {"title", "publisher", "published_at" (UTC datetime or None), "url", "source"}
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'News provider chain (yfinance news in old and new
-# formats, Yahoo RSS, Google News RSS) with timeouts, UTC timestamps and title de-duplication',
-# Date: 2026-10-11
 
 from __future__ import annotations
 

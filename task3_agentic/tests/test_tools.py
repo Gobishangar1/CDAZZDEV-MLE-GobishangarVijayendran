@@ -1,6 +1,4 @@
 """The five tools: correct types, correct numbers, and errors turned into suggestions (never raised)."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for five agent tools and the executor
-# (types, volatility maths, sentiment aggregation, failures, tool restriction, truncation)', Date: 2026-10-11
 
 import json
 import math

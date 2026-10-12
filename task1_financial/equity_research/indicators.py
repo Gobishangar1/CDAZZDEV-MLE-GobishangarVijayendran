@@ -11,8 +11,6 @@ Values are NaN until enough history exists (no partial windows).
     add_indicators(df)   all of the above as columns
     last_ma_cross(a, b)  latest golden/death cross
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Implement SMA, EMA, Wilder RSI, MACD (12,26,9) and
-# Bollinger Bands (20, 2 std, ddof=0) from first principles with pandas, no TA-Lib', Date: 2026-10-11
 
 from __future__ import annotations
 

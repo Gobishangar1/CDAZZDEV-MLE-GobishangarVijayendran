@@ -3,9 +3,6 @@
 Rule: no other module contains a "magic number". If a value is a choice
 (a window, a threshold, a weight), it lives here with a one-line reason.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Write config.py for the Task 1 equity research
-# pipeline: every constant with a one-line reason, Groq key loading for Colab and local, logging setup',
-# Date: 2026-10-11
 
 from __future__ import annotations
 

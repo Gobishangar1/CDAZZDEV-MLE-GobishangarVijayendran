@@ -1,6 +1,4 @@
 """Final report: exactly three risks with evidence, three Markdown sections, prompts kept as constants."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for the research report schema, markdown
-# rendering and prompt constants', Date: 2026-10-11
 
 import json
 

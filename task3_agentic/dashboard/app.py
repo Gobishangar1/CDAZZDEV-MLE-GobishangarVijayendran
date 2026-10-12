@@ -6,9 +6,6 @@
 Shows, for one run: totals, a timeline of tool calls per agent (coloured by status), time per tool, the full
 tool-call table (inputs, 200-char output, duration), what each agent said, and the agent-to-agent handoffs.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Streamlit dashboard that reads agent_trace.jsonl and shows
-# runs, a tool-call timeline per agent, durations, messages and handoffs', Date: 2026-10-11
-
 import json
 import sys
 from pathlib import Path

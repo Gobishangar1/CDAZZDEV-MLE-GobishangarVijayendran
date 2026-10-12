@@ -2,8 +2,6 @@
 
 Scenarios: happy path with a signal retry, LLM always broken (fallback), bad tickers,
 no news at all, report files written."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'End-to-end pytest for the LangGraph pipeline with
-# fakes: retry loop, fallback, bad ticker, no news, report output', Date: 2026-10-11
 
 import json
 import re

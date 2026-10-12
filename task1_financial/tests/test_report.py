@@ -1,6 +1,4 @@
 """Bonus report: required sections, embedded chart, ranking of top headlines, safe table cells."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest tests for the HTML equity brief: sections,
-# base64 chart, top-3 headline ranking, money formatting, fallback note', Date: 2026-10-11
 
 from equity_research.indicators import add_indicators
 from equity_research.report import _money, top_headlines, write_report

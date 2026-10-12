@@ -1,6 +1,4 @@
 """Shared test fakes. Every test runs offline: no Yahoo, no news sites, no Groq."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'pytest fixtures: synthetic OHLCV, a fake yfinance
-# Ticker and a scripted fake LLM', Date: 2026-10-11
 
 from __future__ import annotations
 

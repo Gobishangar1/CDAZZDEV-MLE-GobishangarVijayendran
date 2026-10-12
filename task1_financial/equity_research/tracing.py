@@ -10,9 +10,6 @@ Why: terminal logs disappear. The trace shows what was slow, what it cost in tok
 answered (the 20B model or its 120B fallback), and every validation failure, for every run.
 Optional: LangSmith also works with zero code (see the README), but this file needs no account.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'A small thread-safe run tracer that records node
-# durations and LLM calls (model, latency, tokens, validation result) to JSONL with a summary',
-# Date: 2026-10-11
 
 from __future__ import annotations
 

@@ -5,9 +5,6 @@
     follow = session.ask("What volatility did you compute?")
     follow.tool_calls == 0                 # answered from the conversation memory, no tool re-called
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Single research agent session with all five tools,
-# validated three-section report and checkpointer-based short-term memory for follow-up questions',
-# Date: 2026-10-11
 
 from __future__ import annotations
 

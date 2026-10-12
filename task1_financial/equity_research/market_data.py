@@ -14,9 +14,6 @@ Design rules
     - Only missing prices are fatal. Missing company info is not.
     - `_get_ticker` is the only place that creates a yfinance object, so tests can fake it.
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'yfinance OHLCV fetch with a computed start date
-# plus warm-up buffer, tenacity retries, cleaning of null closes and duplicate dates, data checks
-# and a fail-soft company info fetch', Date: 2026-10-11
 
 from __future__ import annotations
 

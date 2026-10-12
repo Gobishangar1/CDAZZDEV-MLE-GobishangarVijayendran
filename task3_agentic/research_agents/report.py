@@ -1,6 +1,4 @@
 """Final report: evidence -> validated ResearchReport (JSON + Pydantic + repair), and Markdown rendering."""
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Write a validated three-section research report from
-# agent evidence and render it as Markdown', Date: 2026-10-11
 
 from __future__ import annotations
 

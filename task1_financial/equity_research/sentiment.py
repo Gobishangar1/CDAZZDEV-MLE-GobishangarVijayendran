@@ -9,9 +9,6 @@ aggregate_sentiment: confidence- and recency-weighted mean
     S = sum(w_i * c_i * s_i) / sum(w_i * c_i),   s = +1/0/-1,  c = confidence,
     w_i = 0.5 ** (age_days / half_life)
 """
-# AI-ASSISTED: Claude (claude-opus-5-5), Prompt: 'Per-headline LLM sentiment with Pydantic
-# validation, logged failures and a repair retry; confidence- and recency-weighted aggregation with
-# agreement and coverage', Date: 2026-10-11
 
 from __future__ import annotations
 
